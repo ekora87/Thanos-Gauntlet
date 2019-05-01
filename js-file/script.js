@@ -18,7 +18,7 @@ $('#guantlet').click(function() {
                 var random = Math.floor(Math.random()*3);
                 $(".article-section").eq(random).fadeOut(1000);
             }
-          }, 2000);
+          }, 1500);
 });
 
 
