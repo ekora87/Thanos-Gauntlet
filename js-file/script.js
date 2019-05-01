@@ -14,11 +14,14 @@ $('#guantlet').click(function() {
         
     
         setInterval(function(){
-            if ($('.article-section').length > 0) {
-                var random = Math.floor(Math.random()*3);
-                $(".article-section").eq(random).fadeOut(1000);
-            }
-          }, 1500);
+            if ($('.fade').length > 0) {
+                var random = Math.floor(Math.random()*5);
+                //console.log($(".fade").eq(random));
+                
+                $(".fade").eq(random).fadeOut(1000);
+            
+          }
+        }, 1500);
 });
 
 
